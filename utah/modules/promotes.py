@@ -1,4 +1,4 @@
-# This file is part of Texas (Telegram Bot)
+# This file is part of Utah (Telegram Bot)
 
 # This program is free software: you can redistribute it and/or modify
 # it under the terms of the GNU Affero General Public License as
@@ -18,9 +18,9 @@ import html
 from aiogram.utils.exceptions import ChatAdminRequired
 from telethon.errors import AdminRankEmojiNotAllowedError
 
-from texas import BOT_ID, bot
-from texas.decorator import register
-from texas.services.telethon import tbot
+from utah import BOT_ID, bot
+from utah.decorator import register
+from utah.services.telethon import tbot
 from .utils.connections import chat_connection
 from .utils.language import get_strings_dec
 from .utils.user_details import (
