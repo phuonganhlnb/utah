@@ -1,4 +1,4 @@
-# This file is part of Texas (Telegram Bot)
+# This file is part of Utah (Telegram Bot)
 
 # This program is free software: you can redistribute it and/or modify
 # it under the terms of the GNU Affero General Public License as
@@ -19,7 +19,7 @@ from yaml import load, Loader
 from bs4 import BeautifulSoup
 
 from aiogram.types import InlineKeyboardButton, InlineKeyboardMarkup
-from texas.decorator import register
+from utah.decorator import register
 from .utils.android import GetDevice
 from .utils.disable import disableable_dec
 from .utils.message import get_arg
