@@ -1,4 +1,4 @@
-# This file is part of Texas (Telegram Bot)
+# This file is part of Utah (Telegram Bot)
 
 # This program is free software: you can redistribute it and/or modify
 # it under the terms of the GNU Affero General Public License as
@@ -17,10 +17,10 @@ import asyncio
 import time
 from importlib import import_module
 
-from texas import bot, OWNER_ID
-from texas.services.mongo import mongodb
-from texas.utils.logger import log
-from texas.versions import DB_STRUCTURE_VER
+from utah import bot, OWNER_ID
+from utah.services.mongo import mongodb
+from utah.utils.logger import log
+from utah.versions import DB_STRUCTURE_VER
 
 
 async def notify_bot_owner(old_ver, new_ver):
