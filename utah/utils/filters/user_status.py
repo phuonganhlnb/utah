@@ -1,4 +1,4 @@
-# This file is part of Texas (Telegram Bot)
+# This file is part of Utah (Telegram Bot)
 
 # This program is free software: you can redistribute it and/or modify
 # it under the terms of the GNU Affero General Public License as
@@ -16,11 +16,11 @@
 from aiogram import types
 from aiogram.dispatcher.filters import BoundFilter
 
-from texas import OPERATORS, dp
-from texas.config import get_int_key
-from texas.modules.utils.language import get_strings_dec
-from texas.modules.utils.user_details import is_user_admin
-from texas.services.mongo import mongodb
+from utah import OPERATORS, dp
+from utah.config import get_int_key
+from utah.modules.utils.language import get_strings_dec
+from utah.modules.utils.user_details import is_user_admin
+from utah.services.mongo import mongodb
 
 
 class IsAdmin(BoundFilter):
