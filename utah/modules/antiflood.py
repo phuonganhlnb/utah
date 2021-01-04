@@ -27,17 +27,17 @@ from aiogram.types.message import ContentType, Message
 from aiogram.utils.callback_data import CallbackData
 from babel.dates import format_timedelta
 
-from texas import dp
-from texas.decorator import register
-from texas.modules.utils.connections import chat_connection
-from texas.modules.utils.language import get_strings_dec, get_strings
-from texas.modules.utils.message import convert_time, get_args, need_args_dec
-from texas.modules.utils.restrictions import ban_user, kick_user, mute_user
-from texas.modules.utils.user_details import is_user_admin, get_user_link
-from texas.services.mongo import db
-from texas.services.redis import bredis, redis
-from texas.utils.cached import cached
-from texas.utils.logger import log
+from utah import dp
+from utah.decorator import register
+from utah.modules.utils.connections import chat_connection
+from utah.modules.utils.language import get_strings_dec, get_strings
+from utah.modules.utils.message import convert_time, get_args, need_args_dec
+from utah.modules.utils.restrictions import ban_user, kick_user, mute_user
+from utah.modules.utils.user_details import is_user_admin, get_user_link
+from utah.services.mongo import db
+from utah.services.redis import bredis, redis
+from utah.utils.cached import cached
+from utah.utils.logger import log
 
 cancel_state = CallbackData('cancel_state', 'user_id')
 
