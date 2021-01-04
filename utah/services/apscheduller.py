@@ -1,4 +1,4 @@
-# This file is part of Texas (Telegram Bot)
+# This file is part of Utah (Telegram Bot)
 
 # This program is free software: you can redistribute it and/or modify
 # it under the terms of the GNU Affero General Public License as
@@ -18,8 +18,8 @@ from apscheduler.jobstores.redis import RedisJobStore
 from apscheduler.schedulers.asyncio import AsyncIOScheduler
 from pytz import utc
 
-from texas.config import get_str_key, get_int_key
-from texas.utils.logger import log
+from utah.config import get_str_key, get_int_key
+from utah.utils.logger import log
 
 DEFAULT = "default"
 
