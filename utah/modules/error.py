@@ -1,4 +1,4 @@
-# This file is part of Texas (Telegram Bot)
+# This file is part of Utah (Telegram Bot)
 
 # This program is free software: you can redistribute it and/or modify
 # it under the terms of the GNU Affero General Public License as
@@ -19,9 +19,9 @@ import sys
 from aiogram.types import Update
 from redis.exceptions import RedisError
 
-from texas import dp, bot, OWNER_ID
-from texas.services.redis import redis
-from texas.utils.logger import log
+from utah import dp, bot, OWNER_ID
+from utah.services.redis import redis
+from utah.utils.logger import log
 
 SENT = []
 
