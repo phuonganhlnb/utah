@@ -1,5 +1,5 @@
 
-![cruel](https://telegra.ph/file/b6fbf04a9018eac3a0308.jpg)
+![cruel](https://telegra.ph/file/8d59c958a33c407a448dc.jpg)
 
 # Utaha bot - telegram
 
