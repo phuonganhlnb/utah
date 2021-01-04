@@ -1,4 +1,4 @@
-# This file is part of Texas (Telegram Bot)
+# This file is part of Utah (Telegram Bot)
 
 # This program is free software: you can redistribute it and/or modify
 # it under the terms of the GNU Affero General Public License as
@@ -15,8 +15,8 @@
 
 from aiogram.types.inline_keyboard import InlineKeyboardMarkup, InlineKeyboardButton
 
-from texas.decorator import register, COMMANDS_ALIASES
-from texas.services.mongo import db
+from utah.decorator import register, COMMANDS_ALIASES
+from utah.services.mongo import db
 from .utils.connections import chat_connection
 from .utils.disable import DISABLABLE_COMMANDS, disableable_dec
 from .utils.language import get_strings_dec
