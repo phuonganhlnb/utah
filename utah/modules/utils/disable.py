@@ -1,4 +1,4 @@
-# This file is part of Texas (Telegram Bot)
+# This file is part of Utah (Telegram Bot)
 
 # This program is free software: you can redistribute it and/or modify
 # it under the terms of the GNU Affero General Public License as
@@ -15,9 +15,9 @@
 
 from contextlib import suppress
 
-from texas.modules.utils.user_details import is_user_admin
-from texas.services.mongo import db
-from texas.utils.logger import log
+from utah.modules.utils.user_details import is_user_admin
+from utah.services.mongo import db
+from utah.utils.logger import log
 
 DISABLABLE_COMMANDS = []
 
