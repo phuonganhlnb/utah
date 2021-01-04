@@ -1,4 +1,4 @@
-# This file is part of Texas (Telegram Bot)
+# This file is part of Utah (Telegram Bot)
 
 # This program is free software: you can redistribute it and/or modify
 # it under the terms of the GNU Affero General Public License as
@@ -14,10 +14,10 @@
 # along with this program.  If not, see <http://www.gnu.org/licenses/>.
 from aiogram.utils.exceptions import Unauthorized
 
-from texas.modules.utils.user_details import is_user_admin
-from texas.services.mongo import db
-from texas.services.redis import redis
-from texas.utils.cached import cached
+from utah.modules.utils.user_details import is_user_admin
+from utah.services.mongo import db
+from utah.services.redis import redis
+from utah.utils.cached import cached
 
 
 async def get_connected_chat(message, admin=False, only_groups=False, from_id=None, command=None):
