@@ -1,4 +1,4 @@
-# This file is part of Texas (Telegram Bot)
+# This file is part of Utah (Telegram Bot)
 
 # This program is free software: you can redistribute it and/or modify
 # it under the terms of the GNU Affero General Public License as
@@ -28,9 +28,9 @@ from telethon.errors import (
 )
 from telethon.tl.custom import Button
 
-import texas.modules.utils.tmarkdown as tmarkdown
-from texas import BOT_USERNAME
-from texas.services.telethon import tbot
+import utah.modules.utils.tmarkdown as tmarkdown
+from utah import BOT_USERNAME
+from utah.services.telethon import tbot
 from .language import get_chat_lang
 from .message import get_args
 from .tmarkdown import tbold, titalic, tpre, tcode, tlink, tstrikethrough, tunderline
