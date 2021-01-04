@@ -1,4 +1,4 @@
-# This file is part of Texas (Telegram Bot)
+# This file is part of Utah (Telegram Bot)
 
 # This program is free software: you can redistribute it and/or modify
 # it under the terms of the GNU Affero General Public License as
@@ -26,9 +26,9 @@ from aiogram.utils.exceptions import MessageNotModified
 from babel.dates import format_timedelta
 from bson.objectid import ObjectId
 
-from texas import BOT_ID, bot
-from texas.decorator import register
-from texas.services.mongo import db
+from utah import BOT_ID, bot
+from utah.decorator import register
+from utah.services.mongo import db
 from .misc import customise_reason_start, customise_reason_finish
 from .utils.connections import chat_connection
 from .utils.language import get_strings_dec
