@@ -1,4 +1,4 @@
-# This file is part of Texas (Telegram Bot)
+# This file is part of Utah (Telegram Bot)
 
 # This program is free software: you can redistribute it and/or modify
 # it under the terms of the GNU Affero General Public License as
@@ -16,7 +16,7 @@
 from aiogram import types
 from aiogram.dispatcher.filters import BoundFilter
 
-from texas import dp
+from utah import dp
 
 
 class OnlyPM(BoundFilter):
