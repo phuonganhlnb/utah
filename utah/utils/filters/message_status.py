@@ -19,7 +19,7 @@
 from aiogram import types
 from aiogram.dispatcher.filters import BoundFilter
 
-from texas import dp
+from utah import dp
 
 
 class NotForwarded(BoundFilter):
