@@ -1,4 +1,4 @@
-# This file is part of Texas (Telegram Bot)
+# This file is part of Utah (Telegram Bot)
 
 # This program is free software: you can redistribute it and/or modify
 # it under the terms of the GNU Affero General Public License as
@@ -13,8 +13,8 @@
 # You should have received a copy of the GNU Affero General Public License
 # along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
-from texas.decorator import register
-from texas.services.mongo import db
+from utah.decorator import register
+from utah.services.mongo import db
 
 from .utils.connections import chat_connection
 from .utils.disable import disableable_dec
