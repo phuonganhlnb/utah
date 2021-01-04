@@ -1,4 +1,4 @@
-# This file is part of Texas (Telegram Bot)
+# This file is part of Utah (Telegram Bot)
 
 # This program is free software: you can redistribute it and/or modify
 # it under the terms of the GNU Affero General Public License as
@@ -29,12 +29,12 @@ from async_timeout import timeout
 from bson.objectid import ObjectId
 from pymongo import UpdateOne
 
-from texas import loop, bot
-from texas.decorator import register
-from texas.modules import LOADED_MODULES
-from texas.services.mongo import db
-from texas.services.redis import redis
-from texas.utils.logger import log
+from utah import loop, bot
+from utah.decorator import register
+from utah.modules import LOADED_MODULES
+from utah.services.mongo import db
+from utah.services.redis import redis
+from utah.utils.logger import log
 from .utils.connections import chat_connection, get_connected_chat
 from .utils.language import get_strings_dec, get_string
 from .utils.message import need_args_dec, get_args_str
