@@ -1,4 +1,4 @@
-# This file is part of Texas (Telegram Bot)
+# This file is part of Utah (Telegram Bot)
 
 # This program is free software: you can redistribute it and/or modify
 # it under the terms of the GNU Affero General Public License as
@@ -20,12 +20,12 @@ import os
 import requests
 import rapidjson
 
-from texas import OWNER_ID, OPERATORS, TEXAS_VERSION, dp
-from texas.decorator import REGISTRED_COMMANDS, COMMANDS_ALIASES, register
-from texas.modules import LOADED_MODULES
-from texas.services.mongo import db, mongodb
-from texas.services.redis import redis
-from texas.services.telethon import tbot
+from utah import OWNER_ID, OPERATORS, UTAH_VERSION, dp
+from utah.decorator import REGISTRED_COMMANDS, COMMANDS_ALIASES, register
+from utah.modules import LOADED_MODULES
+from utah.services.mongo import db, mongodb
+from utah.services.redis import redis
+from utah.services.telethon import tbot
 from .utils.covert import convert_size
 from .utils.language import get_strings_dec
 from .utils.message import need_args_dec
