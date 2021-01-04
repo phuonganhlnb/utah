@@ -1,4 +1,4 @@
-# This file is part of Texas (Telegram Bot)
+# This file is part of Utah (Telegram Bot)
 
 # This program is free software: you can redistribute it and/or modify
 # it under the terms of the GNU Affero General Public License as
@@ -26,11 +26,11 @@ from babel.dates import format_datetime
 from pymongo import ReplaceOne
 from telethon.errors.rpcerrorlist import MessageDeleteForbiddenError
 
-from texas import bot
-from texas.decorator import register
-from texas.services.mongo import db
-from texas.services.redis import redis
-from texas.services.telethon import tbot
+from utah import bot
+from utah.decorator import register
+from utah.services.mongo import db
+from utah.services.redis import redis
+from utah.services.telethon import tbot
 from .utils.connections import chat_connection, set_connected_command
 from .utils.disable import disableable_dec
 from .utils.language import get_strings_dec, get_string
