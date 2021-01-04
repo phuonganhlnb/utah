@@ -1,4 +1,4 @@
-# This file is part of Texas (Telegram Bot)
+# This file is part of Utah (Telegram Bot)
 
 # This program is free software: you can redistribute it and/or modify
 # it under the terms of the GNU Affero General Public License as
@@ -16,7 +16,7 @@
 
 from telethon import TelegramClient
 
-from texas.config import get_str_key, get_int_key
+from utah.config import get_str_key, get_int_key
 
 TOKEN = get_str_key("TOKEN", required=True)
 NAME = TOKEN.split(':')[0]
