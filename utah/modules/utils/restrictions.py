@@ -1,4 +1,4 @@
-# This file is part of Texas (Telegram Bot)
+# This file is part of Utah (Telegram Bot)
 
 # This program is free software: you can redistribute it and/or modify
 # it under the terms of the GNU Affero General Public License as
@@ -16,7 +16,7 @@
 from aiogram.types.chat_permissions import ChatPermissions
 from aiogram.utils.exceptions import BadRequest, MigrateToChat, Unauthorized
 
-from texas import bot
+from utah import bot
 
 
 async def ban_user(chat_id, user_id, until_date=None):
