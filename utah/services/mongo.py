@@ -1,4 +1,4 @@
-# This file is part of Texas (Telegram Bot)
+# This file is part of Utah (Telegram Bot)
 
 # This program is free software: you can redistribute it and/or modify
 # it under the terms of the GNU Affero General Public License as
@@ -20,8 +20,8 @@ from motor import motor_asyncio
 from pymongo import MongoClient
 from pymongo.errors import ServerSelectionTimeoutError
 
-from texas import log
-from texas.config import get_str_key, get_int_key
+from utah import log
+from utah.config import get_str_key, get_int_key
 
 
 MONGO_URI = get_str_key("MONGO_URI")
