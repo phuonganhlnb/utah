@@ -1,4 +1,4 @@
-# This file is part of Texas (Telegram Bot)
+# This file is part of Utah (Telegram Bot)
 
 # This program is free software: you can redistribute it and/or modify
 # it under the terms of the GNU Affero General Public License as
@@ -32,14 +32,14 @@ from babel.dates import format_timedelta
 from captcha.image import ImageCaptcha
 from telethon.tl.custom import Button
 
-from texas import BOT_USERNAME, BOT_ID, bot, dp
-from texas.config import get_str_key
-from texas.decorator import register
-from texas.services.apscheduller import scheduler
-from texas.services.mongo import db
-from texas.services.redis import redis
-from texas.services.telethon import tbot
-from texas.stuff.fonts import ALL_FONTS
+from utah import BOT_USERNAME, BOT_ID, bot, dp
+from utah.config import get_str_key
+from utah.decorator import register
+from utah.services.apscheduller import scheduler
+from utah.services.mongo import db
+from utah.services.redis import redis
+from utah.services.telethon import tbot
+from utah.stuff.fonts import ALL_FONTS
 from .utils.connections import chat_connection
 from .utils.language import get_strings_dec
 from .utils.message import need_args_dec, convert_time
