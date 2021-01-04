@@ -1,4 +1,4 @@
-# This file is part of Texas (Telegram Bot)
+# This file is part of Utah (Telegram Bot)
 
 # This program is free software: you can redistribute it and/or modify
 # it under the terms of the GNU Affero General Public License as
@@ -16,8 +16,8 @@
 import os
 import signal
 
-from texas.services.redis import redis
-from texas.utils.logger import log
+from utah.services.redis import redis
+from utah.utils.logger import log
 
 
 def exit_gracefully(signum, frame):
