@@ -185,7 +185,7 @@ async def get_event(message):
 
 @register(cmds="stats", is_op=True)
 async def stats(message):
-    text = f"<b>Texas {UTAH_VERSION} stats</b>\n"
+    text = f"<b>Utah {UTAH_VERSION} stats</b>\n"
 
     for module in [m for m in LOADED_MODULES if hasattr(m, '__stats__')]:
         text += await module.__stats__()
