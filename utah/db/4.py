@@ -16,7 +16,7 @@
 from utah.services.mongo import mongodb
 from utah.utils.logger import log
 
-log.info('Texas Database v4')
+log.info('Utah Database v4')
 log.info("Filters: move 'note' to 'note_name'")
 log.info('Starting updating all filters...')
 
