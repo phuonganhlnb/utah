@@ -23,7 +23,7 @@ from aiogram.contrib.fsm_storage.redis import RedisStorage2
 
 from utah.config import get_str_key, get_int_key, get_list_key, get_bool_key
 from utah.utils.logger import log
-from utah.versions import TEXAS_VERSION
+from utah.versions import UTAH_VERSION
 
 log.info("----------------------")
 log.info("|      Texas      |")
@@ -31,7 +31,7 @@ log.info("----------------------")
 log.info("Version: " + TEXAS_VERSION)
 
 if get_bool_key("DEBUG_MODE") is True:
-    TEXAS_VERSION += "-debug"
+    UTAH_VERSION += "-debug"
     log.setLevel(logging.DEBUG)
     log.warn(
         "! Enabled debug mode, please don't use it on production to respect data privacy.")
