@@ -28,7 +28,7 @@ from utah.versions import UTAH_VERSION
 log.info("----------------------")
 log.info("|      Texas      |")
 log.info("----------------------")
-log.info("Version: " + TEXAS_VERSION)
+log.info("Version: " + UTAH_VERSION)
 
 if get_bool_key("DEBUG_MODE") is True:
     UTAH_VERSION += "-debug"
