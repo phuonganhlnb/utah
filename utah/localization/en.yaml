@@ -189,8 +189,8 @@ STRINGS:
     emoji_not_allowed: "I'm sorry, but admin roles can't have emojis 😞"
 
   pm_menu:
-    start_hi_group: 'Hey there! My name is Texas'
-    start_hi: "Hey there! My name is <b>Texas.</b>\nI can help manage your groups with useful features, feel free to add me to your groups!"
+    start_hi_group: 'Hey there! My name is Utah'
+    start_hi: "Hey there! My name is <b>Utah.</b>\nI can help manage your groups with useful features, feel free to add me to your groups!"
     btn_source: "📦 Source code"
     btn_help: "❔ Help"
     btn_lang: "🇺🇸 Language"
@@ -199,7 +199,7 @@ STRINGS:
     back: Back
 
     # /help
-    help_header: "Hey! My name is <b>Texas</b>. I am a group management bot, here to help you get around and keep the order in your groups!\nI have lots of handy features, such as flood control, a warning system, a note keeping system, and even predetermined replies on certain keywords."
+    help_header: "Hey! My name is <b>Utah</b>. I am a group management bot, here to help you get around and keep the order in your groups!\nI have lots of handy features, such as flood control, a warning system, a note keeping system, and even predetermined replies on certain keywords."
     click_btn: Click here
 
   disable:
