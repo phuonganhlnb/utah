@@ -18,7 +18,7 @@ from pymongo import DeleteOne
 from utah.services.mongo import mongodb
 from utah.utils.logger import log
 
-log.info('Texas Database v6')
+log.info('Utah Database v6')
 log.info("Feds: fix str user_id and fix duplications")
 log.info('Starting updating all feds...')
 
