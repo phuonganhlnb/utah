@@ -18,7 +18,7 @@ from pymongo import UpdateOne
 from utah.services.mongo import mongodb
 from utah.utils.logger import log
 
-log.info('Texas Database v6')
+log.info('Utah Database v6')
 log.info("Filters: migrate 'reply_message'")
 log.info('Starting to updating all filters...')
 
