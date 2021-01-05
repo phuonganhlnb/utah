@@ -18,7 +18,7 @@ from pymongo import InsertOne
 from utah.services.mongo import mongodb
 from utah.utils.logger import log
 
-log.info('Texas Database v5')
+log.info('Utah Database v5')
 log.info("Feds: migrate to old feds database structure")
 log.info('Starting updating all feds...')
 
