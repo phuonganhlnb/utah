@@ -37,7 +37,7 @@ COMMANDS_ALIASES = {}
 log.info("Filters to load: %s", str(ALL_FILTERS))
 for module_name in ALL_FILTERS:
     log.debug("Importing " + module_name)
-    imported_module = import_module("texas.utils.filters." + module_name)
+    imported_module = import_module("utah.utils.filters." + module_name)
 log.info("Filters loaded!")
 
 
