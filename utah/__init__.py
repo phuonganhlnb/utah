@@ -21,9 +21,9 @@ from aiogram import Bot, Dispatcher, types
 from aiogram.bot.api import TelegramAPIServer, TELEGRAM_PRODUCTION
 from aiogram.contrib.fsm_storage.redis import RedisStorage2
 
-from texas.config import get_str_key, get_int_key, get_list_key, get_bool_key
-from texas.utils.logger import log
-from texas.versions import TEXAS_VERSION
+from utah.config import get_str_key, get_int_key, get_list_key, get_bool_key
+from utah.utils.logger import log
+from utah.versions import TEXAS_VERSION
 
 log.info("----------------------")
 log.info("|      Texas      |")
