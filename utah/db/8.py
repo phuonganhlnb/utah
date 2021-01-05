@@ -20,7 +20,7 @@ from utah.utils.logger import log
 
 changelog = \
     """
-    Texas database v8
+    Utah database v8
     Warns: Change serialization method of warnmodes (time based)
     """
 log.info(changelog)
