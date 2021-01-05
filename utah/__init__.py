@@ -26,7 +26,7 @@ from utah.utils.logger import log
 from utah.versions import UTAH_VERSION
 
 log.info("----------------------")
-log.info("|      Texas      |")
+log.info("|      Utah      |")
 log.info("----------------------")
 log.info("Version: " + UTAH_VERSION)
 
