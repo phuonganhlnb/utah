@@ -22,7 +22,7 @@ LOADED_MODULES = []
 MOD_HELP = {}
 
 def list_all_modules() -> list:
-    modules_directory = 'texas/modules'
+    modules_directory = 'utah/modules'
 
     all_modules = []
     for module_name in os.listdir(modules_directory):
