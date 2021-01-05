@@ -16,7 +16,7 @@
 from utah.services.mongo import mongodb
 from utah.utils.logger import log
 
-log.info('Texas Database v3')
+log.info('Utah Database v3')
 log.info('Support notes aliases')
 log.info('Starting updating all notes...')
 
