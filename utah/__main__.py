@@ -60,9 +60,9 @@ else:
 
 loop = asyncio.get_event_loop()
 
-import_module('texas.modules.pm_menu')
+import_module('utah.modules.pm_menu')
 # Import misc stuff
-import_module("texas.utils.exit_gracefully")
+import_module("utah.utils.exit_gracefully")
 
 
 async def before_srv_task(loop):
@@ -71,7 +71,7 @@ async def before_srv_task(loop):
         loop.create_task(module.__before_serving__(loop))
 
 
-import_module("texas.utils.db_structure_migrator")
+import_module("utah.utils.db_structure_migrator")
 
 
 async def start(_):
