@@ -273,6 +273,7 @@ async def kayo(message):
 async def kayo(message):
     await site_search(message, "ganime")
 
+#added ganime search based on gogoanime.so
 
 __mod_name__ = "Anime"
 
@@ -286,6 +287,6 @@ Get information about anime, manga or anime characters.
 - /airing (anime): returns anime airing info.
 - /kaizoku (anime): search an anime on animekaizoku.com
 - /kayo (anime): search an anime on animekayo.com
-- /ganime (anime): search an anime on gogoanime.com
+- /ganime (anime): search an anime on gogoanime.so
 - /upcoming: returns a list of new anime in the upcoming seasons.
 """
