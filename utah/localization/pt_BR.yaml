@@ -168,8 +168,9 @@ STRINGS:
     btn_source: "📦 Código fonte"
     btn_help: "❔ Ajuda"
     btn_lang: "🇧🇷 Idioma"
-    btn_channel: "📬 Notícias do Texas"
+    btn_channel: "📬 Notícias do Utah"
     btn_group_help: "Clique aqui para obter ajuda!"
+    btn_add: "Add me to your group"
     back: Voltar
     #/help
     help_header: "Ei! Meu nome é <b>Texas</b>. Sou um bot de gerenciamento de grupo, estou aqui para ajudá-lo a se locomover e manter a ordem em seus grupos!\nTenho muitos recursos úteis, como controle de flood, um sistema de avisos, um sistema de notas e até mesmo respostas predeterminadas em certas palavras-chave."
