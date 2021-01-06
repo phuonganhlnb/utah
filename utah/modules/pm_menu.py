@@ -60,8 +60,9 @@ async def get_start_func(message, strings, edit=False):
     buttons = InlineKeyboardMarkup()
     buttons.add(InlineKeyboardButton(strings['btn_help'], callback_data='get_help'),
                 InlineKeyboardButton(strings['btn_lang'], callback_data='lang_btn'))
-    buttons.add(InlineKeyboardButton(strings['btn_channel'], url='https://t.me/chizurusupport'),
-                InlineKeyboardButton(strings['btn_source'], url='https://github.com/minatouzuki/utah'))
+    buttons.add(InlineKeyboardButton(strings['btn_channel'], url='https://t.me/uthahaupd'),          
+                InlineKeyboardButton(strings['btn_group_help'], url='https://t.me/chizurusupport'),
+                InineKeyboardButton(strings['btn_source'], url='https://github.com/minatouzuki/utah')))
     # Handle error when user click the button 2 or more times simultaneously
     with suppress(MessageNotModified):
         await task(strings['start_hi'], reply_markup=buttons)
