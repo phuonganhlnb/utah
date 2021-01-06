@@ -229,6 +229,24 @@ async def site_search(message, site: str):
             post_name = html.escape(entry.text.strip())
             result += f"• <a href='{post_link}'>{post_name}</a>\n"
 
+    elif site == "ganime":
+        search_url = f"https://gogoanime.so//search.html?keyword={search_query}"
+        html_text = requests.get(search_url).text
+        soup = bs4.BeautifulSoup(html_text, "html.parser")
+        search_result = soup.find_all("h2", {'class': "title"})
+
+        result = f"<b>Search results for</b> <code>{html.escape(search_query)}</code> <b>on</b> <code>gogoanime</code>: \n"
+        for entry in search_result:
+
+            if entry.text.strip() == "Nothing Found":
+                result = f"<b>No result found for</b> <code>{html.escape(search_query)}</code> <b>on</b> <code>gogoanime</code>"
+                more_results = False
+                break
+
+            post_link = entry.a['href']
+            post_name = html.escape(entry.text.strip())
+            result += f"• <a href='{post_link}'>{post_name}</a>\n"
+
     buttons = InlineKeyboardMarkup().add(
         InlineKeyboardButton(text="See all results", url=search_url))
 
@@ -250,6 +268,12 @@ async def kayo(message):
     await site_search(message, "kayo")
 
 
+@register(cmds='ganime')
+@disableable_dec('ganime')
+async def kayo(message):
+    await site_search(message, "ganime")
+
+
 __mod_name__ = "Anime"
 
 __help__ = """
@@ -262,5 +286,6 @@ Get information about anime, manga or anime characters.
 - /airing (anime): returns anime airing info.
 - /kaizoku (anime): search an anime on animekaizoku.com
 - /kayo (anime): search an anime on animekayo.com
+- /ganime (anime): search an anime on gogoanime.com
 - /upcoming: returns a list of new anime in the upcoming seasons.
 """
