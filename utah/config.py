@@ -30,7 +30,7 @@ DEFAULTS = {
     'REDIS_PASS': "AAAAAA",
 
     'MONGODB_URI': 'localhost',
-    'MONGO_DB': 'texas',
+    'MONGO_DB': 'utah',
 
     'API_PORT': 8080,
 
