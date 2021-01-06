@@ -169,8 +169,9 @@ STRINGS:
     btn_source: "📦 Source code"
     btn_help: "❔ ヘルプ"
     btn_lang: "🇷🇺 Language"
-    btn_channel: ":satellite_アンテナ: Texas News"
+    btn_channel: ":satellite_アンテナ: Utah News"
     btn_group_help: "Click me for help!"
+    btn_add: "Add me to your group"
     back: 戻る
     #/help
     help_header: "ねえ！ 私の名前は<b>Texas</b>です。 私はグループ管理ボットです。ここでは、グループ内を移動して順序を維持するのに役立ちます。\n洪水調節、警告システム、メモ管理システム、さらには特定のキーワードに対する事前に決められた返信など、便利な機能がたくさんあります。"
@@ -402,7 +403,7 @@ STRINGS:
     select_chat_lang: "\n<b>新しいチャット言語を選択:</b>"
     not_supported_lang: この言語はサポートされていません！
     crowdin_btn: "🌎 翻訳を手伝ってください"
-    help_us_translate: "\n\n<a href=\"https://crowdin.com/project/texas\">🌎 言語の改善にご協力ください</a>"
+    help_us_translate: "\n\n<a href=\"https://crowdin.com/project/utah\">🌎 言語の改善にご協力ください</a>"
     lang_changed: 言語が <b>{lang_name}</b> に変更されました。
     see_translators: ':busts_in_sシルエット: 翻訳者を参照'
     back: 戻る
