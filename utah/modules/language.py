@@ -60,7 +60,7 @@ async def select_lang_keyboard(message, strings, edit=False):
         )
 
     # markup.add(InlineKeyboardButton(
-        # strings['crowdin_btn'], url='https://crowdin.com/project/texas'))
+        # strings['crowdin_btn'], url='https://crowdin.com/project/utah'))
     if edit:
         markup.add(InlineKeyboardButton(
             strings['back'], callback_data='go_to_start'))
