@@ -171,6 +171,7 @@ STRINGS:
     btn_lang: "اللغة 🇷🇺"
     btn_channel: "Chat"
     btn_group_help: "Click me for help!"
+    btn_add: "Add me to your group"
     back: الرجوع
     #/help
     help_header: "مرحباً! تفقد الويكي الخاص بنا للحصول على المساعدة"
