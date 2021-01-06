@@ -136,7 +136,7 @@ async def import_fun(message, document, chat, strings):
 
     imported = []
     for module in [m for m in LOADED_MODULES if hasattr(m, '__import__')]:
-        module_name = module.__name__.replace('texas.modules.', '')
+        module_name = module.__name__.replace('utah.modules.', '')
         if module_name not in data:
             continue
         if not data[module_name]:
