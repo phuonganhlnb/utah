@@ -169,8 +169,9 @@ STRINGS:
     btn_source: "📦 Code source"
     btn_help: "❔ Aide"
     btn_lang: "🇷🇺 Langue"
-    btn_channel: "📬 Texas News"
+    btn_channel: "📬 Utah News"
     btn_group_help: "Click me for help!"
+    btn_add: "Add me to your group"
     back: Retour
     #/help
     help_header: "Hey! Je m'appelle <b>Texas</b>. Je suis un robot de gestion de groupe, là pour vous aider à vous déplacer et à garder l'ordre dans vos groupes!\nJ'ai beaucoup de fonctionnalités pratiques, telles que le contrôle des inondations, un système d'alerte, un système de conservation de notes et même des réponses prédéterminées sur certains mots clés."
