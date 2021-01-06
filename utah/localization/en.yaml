@@ -459,7 +459,7 @@ STRINGS:
     select_pm_lang: "\n<b>Select your new language:</b>"
     select_chat_lang: "\n<b>Select new chat language:</b>"
     crowdin_btn: "🌎 Help us with translation"
-    help_us_translate: "\n\n<a href=\"https://crowdin.com/project/texas\">🌎 Help us improve our translations</a>"
+    help_us_translate: "\n\n<a href=\"https://crowdin.com/project/utah\">🌎 Help us improve our translations</a>"
     not_supported_lang: This language is not supported!
     lang_changed: Language was changed to <b>{lang_name}</b>.
     see_translators: 👥 See translators
@@ -574,11 +574,11 @@ STRINGS:
     user_unmuted: "{user} was unmuted by {admin} in {chat_name}."
 
     # Bans
-    ban_texas: No, I won't do it! Ask the chat creator to do it!
+    ban_utah: No, I won't do it! Ask the chat creator to do it!
     ban_admin: Haha, let's <code>/demote</code> him first.
     ban_self: Why are you trying to ban yourself?
     user_banned: "{user} was banned by {admin} in {chat_name}."
-    unban_texas: Actually, I'm not banned.
+    unban_utah: Actually, I'm not banned.
     unban_admin: Haha no, try banning him first!
     unban_self: Should I ban you first?
     user_unband: "{user} was unbanned by {admin} in {chat_name}."
