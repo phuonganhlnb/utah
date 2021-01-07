@@ -13,5 +13,5 @@ To anyone coming here to **clone this bot**, no support will be given for it. If
 * Fully asynchronous
 * Fully open-source
 * Frequently updated
-* Utaha respects your data privacy, we constantly improving privacy and security in Texas
+* Utaha respects your data privacy, we constantly improving privacy and security in Utah
 
