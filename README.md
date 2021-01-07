@@ -1,5 +1,8 @@
 # Utaha
- 
+
+[![forthebadge made-with-python](http://ForTheBadge.com/images/badges/made-with-python.svg)](https://www.python.org/)
+
+
 >  Utaha is a modern and fast Telegram Bot developed entirely to improve the chat experience,
 >  Utaha contains commands related to Anime, Android, group administration, and more!
 
