@@ -139,8 +139,8 @@ async def bot_stop(message):
 
 @register(cmds="restart", is_owner=True)
 async def restart_bot(message):
-    await message.reply("Texas will be restarted...")
-    args = [sys.executable, "-m", "texas"]
+    await message.reply("Utah will be restarted...")
+    args = [sys.executable, "-m", "utah"]
     os.execl(sys.executable, *args)
 
 
@@ -165,7 +165,7 @@ async def upload_file(message):
 
 @register(cmds="logs", is_op=True)
 async def upload_logs(message):
-    input_str = 'logs/texas.log'
+    input_str = 'logs/utah.log'
     with open(input_str, 'rb') as f:
         await tbot.send_file(message.chat.id, f, reply_to=message.message_id)
 
