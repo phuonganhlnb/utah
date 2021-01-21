@@ -170,7 +170,7 @@ STRINGS:
     btn_help: "❔ ヘルプ"
     btn_lang: "🇷🇺 Language"
     btn_channel: ":satellite_アンテナ: Utah News"
-    btn_group_help: "Click me for help!"
+    btn_group_help: "Support Group"
     btn_add: "Add me to your group"
     back: 戻る
     #/help
@@ -492,25 +492,25 @@ STRINGS:
   restrictions:
     user_not_in_chat: 僅用於中文
     #Kicks
-    kick_texas: 私をキックしようとする代わりに、あなたはより良いあなたの時間を過ごすことができます.
+    kick_utah: 私をキックしようとする代わりに、あなたはより良いあなたの時間を過ごすことができます.
     kick_admin: 管理者をキックすることは最良のアイデアではありません。
     kick_self: あなたが自己をキックしたいなら、このチャットから去ってください。 私は、自罰でこれらの哀れな試みを見るより、むしろあなたに会わないでしょう。
     user_kicked: "{user} は {admin} で {chat_name} にキックされました。"
     #Mutes
-    mute_texas: 実際には、私は代わりにあなたを黙らせて喜んでいます。
+    mute_utah: 実際には、私は代わりにあなたを黙らせて喜んでいます。
     mute_admin: 管理者を黙らせられると思ったら間違っています！
     mute_self: あなたが自己をキックしたいなら、このチャットから去ってください。 私は、自罰でこれらの哀れな試みを見るより、むしろあなたに会わないでしょう。
     user_muted: "{user} は {admin} で {chat_name} によってミュートされました。"
-    unmute_texas: 実際は、私はミュートされていません。
+    unmute_utah: 実際は、私はミュートされていません。
     unmute_admin: いや、最初に彼をミュートしてみてください！
     unmute_self: 最初にミュートしましょうか。
     user_unmuted: "{user} は {admin} で {chat_name} によってミュート解除されました。"
     #Bans
-    ban_texas: いいえ、私はそれをしません! チャットの作成者にそれを行うように頼みます!
+    ban_utah: いいえ、私はそれをしません! チャットの作成者にそれを行うように頼みます!
     ban_admin: ハハハ、先に <code>/degrete</code> をやろう。
     ban_self: なぜ自分を禁止しようとしているのですか。
     user_banned: "{user} は {admin} で {chat_name} によってBANされました。"
-    unban_texas: 実際、私は禁止されていません。
+    unban_utah: 実際、私は禁止されていません。
     unban_admin: いや、最初に彼を禁止してみてください!
     unban_self: 私はあなたを最初に禁止する必要がありますか?
     user_unband: "{user} は {admin} で {chat_name} によってBANを解除されました。"
