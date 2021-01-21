@@ -163,17 +163,17 @@ STRINGS:
     cant_promote_yourself: "Você não pode promover a si mesmo."
     emoji_not_allowed: "Sinto muito, mas o título de administrador não podem ter emojis 😞"
   pm_menu:
-    start_hi_group: 'Olá! Meu nome é Texas'
-    start_hi: "Olá! Meu nome é <b>Texas.</b>\nEu posso ajudar a gerenciar seus grupos com recursos úteis, fique à vontade para me adicionar aos seus grupos!"
+    start_hi_group: 'Olá! Meu nome é Utah'
+    start_hi: "Olá! Meu nome é <b>Utah.</b>\nEu posso ajudar a gerenciar seus grupos com recursos úteis, fique à vontade para me adicionar aos seus grupos!"
     btn_source: "📦 Código fonte"
     btn_help: "❔ Ajuda"
     btn_lang: "🇧🇷 Idioma"
     btn_channel: "📬 Notícias do Utah"
-    btn_group_help: "Clique aqui para obter ajuda!"
+    btn_group_help: "Support Group"
     btn_add: "Add me to your group"
     back: Voltar
     #/help
-    help_header: "Ei! Meu nome é <b>Texas</b>. Sou um bot de gerenciamento de grupo, estou aqui para ajudá-lo a se locomover e manter a ordem em seus grupos!\nTenho muitos recursos úteis, como controle de flood, um sistema de avisos, um sistema de notas e até mesmo respostas predeterminadas em certas palavras-chave."
+    help_header: "Ei! Meu nome é <b>Utah</b>. Sou um bot de gerenciamento de grupo, estou aqui para ajudá-lo a se locomover e manter a ordem em seus grupos!\nTenho muitos recursos úteis, como controle de flood, um sistema de avisos, um sistema de notas e até mesmo respostas predeterminadas em certas palavras-chave."
     click_btn: Clique aqui
   disable:
     #/disableable
@@ -401,7 +401,7 @@ STRINGS:
     select_pm_lang: "\n<b>Selecione o seu novo idioma:</b>"
     select_chat_lang: "\n<b>Selecione o novo idioma do chat:</b>"
     crowdin_btn: "🌎 Ajude-nos com a tradução"
-    help_us_translate: "\n\n<a href=\"https://crowdin.com/project/texas\">🌎 Ajude-nos a melhorar nossas traduções</a>"
+    help_us_translate: "\n\n<a href=\"https://crowdin.com/project/utah\">🌎 Ajude-nos a melhorar nossas traduções</a>"
     not_supported_lang: Este idioma não é suportado!
     lang_changed: O idioma foi trocado a <b>{lang_name}</b>.
     see_translators: '👥 Veja os tradutores'
@@ -493,25 +493,25 @@ STRINGS:
   restrictions:
     user_not_in_chat: O usuário não está neste chat!
     #Kicks
-    kick_texas: Em vez de tentar me expulsar, você poderia usar melhor o seu tempo. Isso é chato.
+    kick_utah: Em vez de tentar me expulsar, você poderia usar melhor o seu tempo. Isso é chato.
     kick_admin: Expulsar o administrador não é a melhor idéia pensada.
     kick_self: Se você quiser se kickar - basta deixar este chat. Prefiro não vê-lo do que olhar para estas tentativas patéticas de autopunição.
     user_kicked: "{user} foi kickado por {admin} em {chat_name}."
     #Mutes
-    mute_texas: Na verdade, eu ficarei feliz em calar você.
+    mute_utah: Na verdade, eu ficarei feliz em calar você.
     mute_admin: Se você pensa que pode silenciar um administrador, você está errado!
     mute_self: Se você quiser se silenciar - basta parar de falar! Melhor pensar como um idiota do que abrir a boca e remover todas as dúvidas.
     user_muted: "{user} foi silenciado por {admin} em {chat_name}."
-    unmute_texas: Na verdade, eu não estou silenciado.
+    unmute_utah: Na verdade, eu não estou silenciado.
     unmute_admin: Haha não, tente silenciá-lo primeiro!
     unmute_self: Devo te silenciar primeiro?
     user_unmuted: "{user} foi desmutado por {admin} em {chat_name}."
     #Bans
-    ban_texas: Não, eu não vou fazer isso! Peça ao criador do chat que o faça!
+    ban_utah: Não, eu não vou fazer isso! Peça ao criador do chat que o faça!
     ban_admin: Haha, vamos. <code>/demote</code> ele primeiro.
     ban_self: Por que você está tentando se banir?
     user_banned: "{user} foi banido por {admin} em {chat_name}."
-    unban_texas: Na verdade, não estou banido.
+    unban_utah: Na verdade, não estou banido.
     unban_admin: Haha não, tente bani-lo primeiro!
     unban_self: Devo te banir primeiro?
     user_unband: "{user} foi desbanido por {admin} em {chat_name}."
