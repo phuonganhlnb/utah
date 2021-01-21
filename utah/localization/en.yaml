@@ -194,8 +194,8 @@ STRINGS:
     btn_source: "📦 Source code"
     btn_help: "❔ Help"
     btn_lang: "🇺🇸 Language"
-    btn_channel: "Updates"
-    btn_group_help: "Click me for help!"
+    btn_channel: "News Channel"
+    btn_group_help: "Support Group"
     btn_add: "Add me to your group"
     back: Back
 
