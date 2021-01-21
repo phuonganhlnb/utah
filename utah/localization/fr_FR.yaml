@@ -164,13 +164,13 @@ STRINGS:
     cant_promote_yourself: "Vous ne pouvez pas vous promouvoir vous-même."
     emoji_not_allowed: "Je suis désolé, mais les rôles d'administration ne peuvent pas avoir d'émojis 😞"
   pm_menu:
-    start_hi_group: 'Salut ! Je m''appelle Texas'
+    start_hi_group: 'Salut ! Je m''appelle Utah'
     start_hi: "Bonjour! Je m'appelle Texas, je vous aide à gérer votre groupe de manière efficace !"
     btn_source: "📦 Code source"
     btn_help: "❔ Aide"
     btn_lang: "🇷🇺 Langue"
     btn_channel: "📬 Utah News"
-    btn_group_help: "Click me for help!"
+    btn_group_help: "Support Group"
     btn_add: "Add me to your group"
     back: Retour
     #/help
@@ -403,7 +403,7 @@ STRINGS:
     select_chat_lang: "\n<b>Sélectionnez une nouvelle langue du chat :</b>"
     not_supported_lang: Cette langue n'est pas prise en charge !
     crowdin_btn: "🌎 Aidez-nous avec la traduction"
-    help_us_translate: "\n\n<a href=\"https://crowdin.com/project/texas\">🌎 Aidez-nous à améliorer les langues</a>"
+    help_us_translate: "\n\n<a href=\"https://crowdin.com/project/utah\">🌎 Aidez-nous à améliorer les langues</a>"
     lang_changed: La langue a été changée en <b>{lang_name}</b>.
     see_translators: '👥 Voir les traducteurs'
     back: Retour
@@ -492,25 +492,25 @@ STRINGS:
   restrictions:
     user_not_in_chat: L'utilisateur n'est pas dans ce chat!
     #Kicks
-    kick_texas: Instead of trying kick me you could spend your time better. Thats just boring.
+    kick_utah: Instead of trying kick me you could spend your time better. Thats just boring.
     kick_admin: La meilleure idée n'est pas de kicker un administrateur.
     kick_self: Si vous voulez vous auto kicker, quittez simplement ce chat, ça m'éviteras de regarder ces pitoyables tentatives d'auto-punition.
     user_kicked: "{user} a été kické par {admin} dans {chat_name}."
     #Mutes
-    mute_texas: Actually, I'll be happy to shut up you instead.
+    mute_utah: Actually, I'll be happy to shut up you instead.
     mute_admin: Si vous pensez pouvoir faire taire l'administrateur, vous avez tort!
     mute_self: Si vous voulez vous auto kicker, quittez simplement ce chat, ça m'éviteras de regarder ces pitoyables tentatives d'auto-punition.
     user_muted: "{user} a été mis en sourdine par {admin} dans {chat_name}."
-    unmute_texas: Actually, I'm not muted.
+    unmute_utah: Actually, I'm not muted.
     unmute_admin: Haha non, essayez de le mettre en sourdine pour commencer!
     unmute_self: Devrais-je d'abord vous mettre en sourdine ?
     user_unmuted: "{user} a été mis en sourdine par {admin} dans {chat_name}."
     #Bans
-    ban_texas: No, I won't do it! Ask chat creator to do it!
+    ban_utah: No, I won't do it! Ask chat creator to do it!
     ban_admin: Haha, nous allons le <code>/demote</code> en premier.
     ban_self: Pourquoi essayez-vous de vous bannir vous-même?
     user_banned: "{user} a été banni par {admin} dans {chat_name}."
-    unban_texas: Actually, I'm not banned.
+    unban_utah: Actually, I'm not banned.
     unban_admin: Haha non, essayez de le bannir d'abord!
     unban_self: Devrais-je vous bannir d'abord?
     user_unband: "{user} a été débanni par {admin} dans {chat_name}."
