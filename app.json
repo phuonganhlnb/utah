@@ -1,0 +1,96 @@
+{
+  "name": "thanhanhdk",
+  "description": "?",
+  "keywords": [
+    "telegram",
+    "laungungbitch",
+    "plugin",
+    "telegram-lnb",
+    "fuck-TG"
+  ],
+  "repository": "https://github.com/phuonganhlnb/HitsukiX",
+  "website": "laungungbitch.com",
+  "success_url": "t.me/ngungbitchmedia",
+    "env": {
+    "APP_ID": {
+      "description": "Get this value from my.telegram.org! Please do not steal",
+      "value": "",
+      "required": true
+    },
+    "APP_HASH": {
+      "description": "Get this value from my.telegram.org! Please do not steal",
+      "value": "",
+      "required": true
+    },
+    "API_PORT": {
+      "description": "8080",
+      "value": "",
+      "required": true
+    },
+    "MONGO_URI": {
+      "description": "Create A Database In Mongodb And Get URL",
+      "value": "",
+      "required": true
+    },
+    "MONGO_DB": {
+      "description": "Don't change.",
+      "value": "DaisyX",
+      "required": false
+    },
+    "REDIS_URI": {
+      "description": "Get from redislabs.com",
+      "value": "",
+      "required": true
+    },
+    "REDIS_PORT": {
+      "description": "Get from redislabs.com",
+      "value": "",
+      "required": true
+    },
+    "REDIS_PASS": {
+      "description": "Get from redislabs.com",
+      "value": "",
+      "required": true
+    },
+    "OWNER_ID": {
+      "description": "Your Id",
+      "value": "",
+      "required": true
+    },
+    "OPERATORS": {
+      "description": "Space seperated list of sudoes",
+      "value": "",
+      "required": true
+    },
+    "SW_API": {
+      "description": "Spamwatch api @SpamWatchBot",
+      "value": "",
+      "required": true
+    },
+    "DEBUG_MODE": {
+      "description": "DEBUG_MODE (no need)",
+      "value": "False",
+      "required": true
+    },
+    "LOAD_MODULES": {
+      "description": "Don't edit",
+      "value": "True",
+      "required": true
+    },
+      "ALLOW_FORWARDS_COMMANDS": {
+      "description": "Don't edit",
+      "value": "false",
+      "required": true
+    },
+      "ALLOW_COMMANDS_WITH_!": {
+      "description": "Don't edit",
+      "value": "false",
+      "required": true
+    },
+    "TOKEN": {
+      "description": "Tg bot token by @BotFarther",
+      "value": "",
+      "required": true
+    }
+  }
+}
